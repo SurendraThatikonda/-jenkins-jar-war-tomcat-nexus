@@ -1,0 +1,5 @@
+**/target/
+*.class
+nexus-settings.xml
+.idea/
+.vscode/
