@@ -87,7 +87,7 @@ pipeline {
 
         success {
             emailext(
-                to: 'YOUR_GMAIL@gmail.com',
+                to: 'surendratatikonda9@gmail.com',
                 subject: "SUCCESS: Deployment completed - ${env.JOB_NAME} #${env.BUILD_NUMBER}",
                 body: """
 Hello,
@@ -112,7 +112,7 @@ Jenkins CI/CD Pipeline
 
         failure {
             emailext(
-                to: 'YOUR_GMAIL@gmail.com',
+                to: 'surendratatikonda9@gmail.com',
                 subject: "FAILED: Deployment failed - ${env.JOB_NAME} #${env.BUILD_NUMBER}",
                 body: """
 Hello,
